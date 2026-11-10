@@ -59,6 +59,16 @@ Test card: Visa `4111 1111 1111 1111`, any future expiry, any CVC, any name. No 
 Also fixed today: the home page looked the New Arrivals category up by its English slug, which is `ganz-neu`
 in de-DE, so the German home page had no hero image or product strip. It now uses the category key.
 
+## Deployment (10 Nov 2026)
+
+Production: https://commercetools-storefront.vercel.app (Vercel, Hobby plan, project `commercetools-storefront`).
+GitHub: https://github.com/dankain-ge/commercetools-storefront, public; pushes to `main` deploy production,
+other branches get preview URLs. Vercel project settings: Root Directory `site`, Node 22, framework Next.js.
+The eight variables from `site/.env` are set in Vercel for Production and Preview as sensitive values.
+The Vercel link file lives at the repo root in `.vercel/` (gitignored); run `vercel` commands from the repo root.
+The production origin is in the allowed origins of the `demo-commercetools-checkout` Checkout application.
+The site is public; to restrict it, enable Vercel Authentication under Settings > Deployment Protection.
+
 ## Known follow-ups
 
 1. **Browser-test the hosted Checkout in en-GB and en-US** (de-DE is done).
