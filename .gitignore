@@ -1,0 +1,14 @@
+# commercetools credentials: never commit
+*.env
+.env
+.env.*
+!.env.example
+
+# local, per-developer Claude Code approvals
+.claude/settings.local.json
+
+# node
+node_modules/
+.next/
+dist/
+.DS_Store

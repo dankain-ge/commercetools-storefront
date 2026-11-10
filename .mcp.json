@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ct-dan-test-build-with-ai-2": {
+      "type": "http",
+      "url": "https://mcp.europe-west1.gcp.commercetools.com/projects/dan-test-build-with-ai-2/dan-mcp"
+    }
+  }
+}

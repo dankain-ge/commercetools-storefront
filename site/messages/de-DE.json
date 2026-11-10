@@ -1,0 +1,82 @@
+{
+  "common": { "notFound": "Diese Seite wurde nicht gefunden.", "backHome": "Zurück zur Startseite" },
+  "nav": { "menu": "Menü", "account": "Konto", "signIn": "Anmelden" },
+  "footer": { "tagline": "Demo-Shop auf Basis von commercetools", "poweredBy": "Powered by commercetools Composable Commerce & Checkout" },
+  "home": {
+    "eyebrow": "Neue Saison",
+    "headline": "Fühl dich wie zu Hause.",
+    "subline": "Möbel, Küchenhelfer und Dekoration für jeden Raum – ausgewählt für ein ruhigeres, wärmeres Zuhause.",
+    "shopNew": "Neuheiten entdecken",
+    "shopByRoom": "Nach Raum einkaufen",
+    "viewAll": "Alle anzeigen"
+  },
+  "search": { "placeholder": "Produkte suchen", "submit": "Suchen", "title": "Suche", "resultsFor": "Ergebnisse für „{query}“", "prompt": "Gib einen Suchbegriff ein, um Produkte zu finden." },
+  "product": {
+    "home": "Start",
+    "sku": "Artikelnummer",
+    "inStock": "Auf Lager",
+    "outOfStock": "Nicht verfügbar",
+    "addToCart": "In den Warenkorb",
+    "addFailed": "Konnte nicht hinzugefügt werden",
+    "noResults": "Keine Produkte entsprechen deiner Auswahl.",
+    "resultCount": "{count, plural, =0 {Keine Produkte} one {# Produkt} other {# Produkte}}",
+    "sort": { "label": "Sortieren", "relevance": "Relevanz", "name-asc": "Name A–Z", "name-desc": "Name Z–A", "price-asc": "Preis aufsteigend", "price-desc": "Preis absteigend" },
+    "filters": { "clearAll": "Alle löschen", "inStock": "Verfügbarkeit", "price": "Preis" }
+  },
+  "cart": {
+    "title": "Warenkorb",
+    "empty": "Dein Warenkorb ist leer.",
+    "continueShopping": "Weiter einkaufen",
+    "subtotal": "Zwischensumme",
+    "discount": "Rabatt",
+    "total": "Gesamt",
+    "shippingNote": "Versand und Steuern werden an der Kasse berechnet.",
+    "viewCart": "Warenkorb ansehen",
+    "checkout": "Zur Kasse",
+    "remove": "Entfernen",
+    "qty": "Menge",
+    "summary": "Bestellübersicht",
+    "discountCode": "Rabattcode",
+    "apply": "Einlösen",
+    "invalidCode": "Dieser Code ist ungültig."
+  },
+  "checkout": {
+    "title": "Kasse",
+    "loading": "Sichere Kasse wird vorbereitet…",
+    "error": "Die Kasse konnte nicht gestartet werden.",
+    "backToCart": "Zurück zum Warenkorb",
+    "confirmationTitle": "Bestellbestätigung",
+    "thankYou": "Vielen Dank für deine Bestellung!",
+    "orderNumber": "Bestellnummer {number}",
+    "orderId": "Bestellung {id}",
+    "orderPlaced": "Deine Bestellung wurde aufgegeben.",
+    "total": "Gesamt",
+    "confirmationSent": "Eine Bestätigung wurde an {email} gesendet.",
+    "continueShopping": "Weiter einkaufen"
+  },
+  "auth": {
+    "signIn": "Anmelden",
+    "register": "Konto erstellen",
+    "createAccount": "Konto erstellen",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "noAccount": "Neu hier?",
+    "haveAccount": "Du hast schon ein Konto?",
+    "loginFailed": "Anmeldung fehlgeschlagen",
+    "registerFailed": "Registrierung fehlgeschlagen"
+  },
+  "account": {
+    "welcome": "Hallo, {name}",
+    "profile": "Profil",
+    "orders": "Bestellungen",
+    "signOut": "Abmelden",
+    "name": "Name",
+    "email": "E-Mail",
+    "addresses": "Adressen",
+    "noAddresses": "Noch keine gespeicherten Adressen.",
+    "noOrders": "Du hast noch keine Bestellungen aufgegeben.",
+    "items": "Artikel"
+  }
+}
